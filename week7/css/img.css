@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood
+}
+.container img{
+    height: 185px;
+    width: 22%;
+    border: solid black;
+}
