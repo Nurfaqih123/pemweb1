@@ -1,0 +1,44 @@
+body {
+  background: pink;
+}
+h1 {
+  color: black;
+}
+img {
+  width: 220px;
+  margin: 50px;
+  margin-top: 300px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+  border: 3px solid black;
+  margin: 15px;
+  height: 100px;
+}
+
+.header {
+  background-color: cyan;
+  width: 100%;
+}
+.aside {
+  background-color: aquamarine;
+  width: 30%;
+  height: 600px;
+}
+.article {
+  background-color: palevioletred;
+  width: 70%;
+  height: 600px;
+}
+
+.footer {
+  background-color: cyan;
+  width: 100%;
+}
