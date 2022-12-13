@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+</head>
+<body>
+    <main>
+        <textarea name="tampil" id="tampil" cols="30" rows="10"></textarea>
+        <br>
+        <input type="text" class="input">
+        <button class="kirim" onclick="aksi()">kirim</button>
+    </main>
+
+    <!-- buat java script -->
+    <script>
+        const input = document.querySelector(".input");
+        const kirim = document.querySelector(".kirim");
+        const tampil = document.querySelector(".tampil");
+        let hasilchat = document.querySelector(".tampil");
+
+        function aksi(){
+            hasilchat.innerHTML = hasilchat.innerHTML + "pesan: " + inputchat.value + "\n"; inputchat.value=""
+        }
+    </script>
+</body>
+</html>
